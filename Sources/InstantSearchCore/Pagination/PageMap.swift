@@ -90,6 +90,8 @@ extension PageMap: Sequence {
 // MARK: CollectionType
 
 extension PageMap: BidirectionalCollection {
+	typealias Element = Item?
+	
   public typealias Index = Int
 
   public var startIndex: Index { return 0 }
